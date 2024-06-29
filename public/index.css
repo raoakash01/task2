@@ -1,0 +1,171 @@
+body {
+  background-color: #191D28;
+  color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #191D28;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #6CCACB;
+  margin-top: 5px;
+}
+
+.buy-button-container {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.buy-button {
+  background-color: #2E3241;
+  height: 40px;
+  width: 80px;
+  border: none;
+  color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.telegram{
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  margin-right: 20px;
+  background-color: #6CCACB;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.telegram-link {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  background-color: #191D28;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price-container {
+  
+  text-align: center;
+  margin: 0 20px;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+}
+.price-container h2 {
+  font-size: 24px;
+}
+
+.lables{
+  margin-left: 20px;
+}
+
+.lables h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color :#6CCACB;
+}
+
+.price {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #999;
+  text-align: center;
+}
+
+.price-inr {
+  font-size: 100px;
+  color: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  font-size: 20px;
+  color: #999;
+}
+
+.time-label {
+  font-size: 16px;
+  color: #999;
+}
+
+#ticker-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#ticker-table thead th {
+  font-size: 28px;
+  padding: 10px;
+  text-align: center;
+  color: #707279;
+}
+
+#ticker-table tbody tr {
+  font-size: 18px;
+  padding: 10px;
+  color: #f0f0f0;
+}
+
+.row-wrapper {
+  background-color: #2E3241;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.row-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+#ticker-table tbody td {
+
+  height: 50px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #191D28;
+  color: #999;
+}
